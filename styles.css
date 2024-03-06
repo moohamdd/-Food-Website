@@ -1,0 +1,198 @@
+/* styles.css */
+body {}
+
+/* Navbar styles */
+nav {
+  background-color: #333;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url(تنزيل\ \(6\).jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3em;
+  color: #333;
+}
+
+.hero p {
+  color: #333;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  background-color: #ff6347;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+
+/* Counter section styles */
+.counter {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.counter-item {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.counter-item h2 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.counter-item p {
+  font-size: 1.5em;
+}
+
+/* About Section styles */
+#about {
+  background-color: white;
+}
+
+.about {
+  padding: 40px 0;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+
+/* CSS for the slider images */
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 auto;
+  /* Allow slides to have their original size */
+}
+
+.slide img {
+  max-width: 100%;
+  /* Ensure images don't exceed the width of their container */
+  height: auto;
+  transition: transform 0.3s ease;
+  /* Add transition effect */
+}
+
+/* Add hover effect */
+.slide img:hover {
+  transform: scale(1.1);
+  /* Increase image size on hover */
+}
+
+/* CSS for the Contact section */
+.contact {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.contact .container {
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact form textarea {
+  height: 150px;
+}
+
+.contact form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact form button:hover {
+  background-color: #555;
+}
+
+
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
